@@ -22,3 +22,7 @@ def extract():
   return render_template('index.html', result=result,text=text)
 if __name__ == "__main__":
   app.run(debug=True)
+
+#Type the below for running the code
+#rasa run -m models --enable-api
+#python app.py
